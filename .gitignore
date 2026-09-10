@@ -1,0 +1,20 @@
+# Agent workspace cruft
+*.log
+*.tmp
+.tmp/
+
+# ML / experiments
+experiments/.venv/
+experiments/results/
+__pycache__/
+*.pyc
+
+# Next.js build artifacts (test harness output in apps/web)
+**/.next/
+**/out/
+**/.test-build/
+
+# Editor
+.vscode/
+.idea/
+*.swp
